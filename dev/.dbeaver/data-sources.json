@@ -1,0 +1,40 @@
+{
+	"folders": {},
+	"connections": {
+		"postgres-jdbc-170179bdd7a-2032e2508e150c9c": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "PostgreSQL - kavak",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "athena-dev-rw.kavak.services",
+				"port": "5432",
+				"database": "kavak",
+				"url": "jdbc:postgresql://athena-dev-rw.kavak.services:5432/kavak",
+				"home": "postgresql-x64-10",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "false",
+					"@dbeaver-show-template-db@": "false",
+					"postgresql.dd.plain.string": "false",
+					"postgresql.dd.tag.string": "false"
+				}
+			},
+			"custom-properties": {
+				"SQLEditor.autoSaveOnClose": "true",
+				"SQLEditor.autoSaveOnExecute": "true"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false
+		}
+	}
+}
